@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "new-page": "ts-node scripts/newPage.ts",
     "start": "next start",
     "lint": "next lint"
   },
@@ -29,6 +30,7 @@
     "@ai-sdk/vercel": "^0.0.2",
     "eslint": "^8",
     "eslint-config-next": "15.4.1",
-    "typescript": "^5"
+    "typescript": "^5",
+    "ts-node": "^10.9.2"
   }
 }
