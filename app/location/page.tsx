@@ -1,4 +1,4 @@
-file="app/location/page.tsx"
+
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
 import Image from 'next/image'
 
