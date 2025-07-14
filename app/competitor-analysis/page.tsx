@@ -1,29 +1,4 @@
-<Thinking>
-I need to create a comprehensive competitor analysis page comparing ContentCraft with ContentWise. This will be a professional-looking page with multiple sections covering:
 
-1. Platform overview
-2. Feature comparison
-3. Pricing
-4. Use cases
-5. Technical capabilities
-6. Customer support
-
-I'll use Tailwind CSS for styling and make sure to highlight ContentCraft's advantages while being fair in the comparison. I'll structure this as a Next.js app router page with proper responsive design.
-
-The page should include:
-- Hero section with overview
-- Detailed comparison tables
-- Visual indicators for advantages
-- Professional color scheme (avoiding indigo/blue unless specified)
-- Responsive design
-- Clean, modern layout
-
-I'll use green for ContentCraft advantages and neutral colors for the comparison.
-</Thinking>
-
-I'll create a comprehensive competitor analysis page comparing ContentCraft with ContentWise. This will include detailed comparisons across multiple dimensions with a professional design.
-
-```tsx file="app/competitor-analysis/page.tsx"
 import { CheckCircle, XCircle, Star, Users, Zap, Shield, HeadphonesIcon, Clock, DollarSign } from 'lucide-react'
 
 export default function CompetitorAnalysisPage() {
@@ -273,4 +248,14 @@ export default function CompetitorAnalysisPage() {
                   <Zap className="w-6 h-6 text-green-500 mr-3 mt-0.5" />
                   <div>
                     <h4 className="font-semibold text-gray-900">Fast-Growing Startups</h4>
-                    <p className="text-gray-600">Need to scale content quickly with AI assistance
+                                        <p className="text-gray-600">Need to scale content quickly with AI assistance</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+}
