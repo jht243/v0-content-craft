@@ -1,0 +1,9 @@
+{
+  "title": "My First Test Post",
+  "excerpt": "This is a test to see if the script works correctly.",
+  "date": "2025-07-03",
+  "slug": "my-first-test-post",
+  "author": "ContentCraft Team",
+  "tags": [],
+  "featuredImage": "/og-blog-post.jpg"
+}
