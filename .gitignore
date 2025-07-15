@@ -5,3 +5,7 @@ node_modules/
 .env.*
 .DS_Store
 *.log
+.next/
+
+# Next.js build output
+.next/
