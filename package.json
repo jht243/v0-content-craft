@@ -5,59 +5,36 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-<<<<<<< HEAD
-=======
     "new-page": "ts-node scripts/newPage.ts",
->>>>>>> 74437838fcdd2604344dd5c4e3659387ad7fe2ce
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@ai-sdk/vercel": "^0.0.1",
-<<<<<<< HEAD
-    "@radix-ui/react-slot": "^1.0.2",
-    "ai": "^4.3.16",
-    "class-variance-authority": "^0.7.0",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.379.0",
-    "next": "14.2.3",
-    "react": "^18",
-    "react-dom": "^18",
-    "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7",
-    "yargs": "^18.0.0"
-=======
     "@octokit/rest": "^22.0.0",
     "ai": "^4.3.16",
-    "next": "15.4.1",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0"
->>>>>>> 74437838fcdd2604344dd5c4e3659387ad7fe2ce
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-<<<<<<< HEAD
-    "@types/yargs": "^17.0.33",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5"
-=======
+    "autoprefixer": "^10.4.21",
+    "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.417.0",
-    "@radix-ui/react-slot": "^1.1.0",
+    "next": "15.4.1",
+    "postcss": "^8.5.6",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "tailwind-merge": "^2.4.0",
-    "yargs": "^17.7.2",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animate": "^1.0.7",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
     "@ai-sdk/vercel": "^0.0.2",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.4.1",
-    "typescript": "^5",
-    "ts-node": "^10.9.2"
->>>>>>> 74437838fcdd2604344dd5c4e3659387ad7fe2ce
+    "ts-node": "^10.9.2",
+    "typescript": "^5"
   }
 }
