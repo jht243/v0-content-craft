@@ -1,9 +1,0 @@
-{
-  "title": "Testing The Dynamic Blog Page",
-  "excerpt": "This post is a test to confirm that the new dynamic blog listing page correctly discovers and displays new content.",
-  "date": "2025-07-03",
-  "slug": "testing-the-dynamic-blog-page",
-  "author": "ContentCraft Team",
-  "tags": ["Testing", "Automation"],
-  "featuredImage": "/images/blog/default.jpg"
-}
