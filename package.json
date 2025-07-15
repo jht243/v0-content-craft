@@ -24,6 +24,7 @@
     "react-dom": "^19.1.0",
     "tailwind-merge": "^2.4.0",
     "tailwindcss": "^4.1.11",
+    "@tailwindcss/postcss": "^4.1.11",
     "tailwindcss-animate": "^1.0.7",
     "yargs": "^17.7.2"
   },
